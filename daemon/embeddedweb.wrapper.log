@@ -1,0 +1,133 @@
+2017-11-16 08:01:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 08:01:58 - Started 9456
+2017-11-16 08:03:20 - Stopping embeddedweb.exe
+2017-11-16 08:03:20 - ProcessKill 9456
+2017-11-16 08:03:21 - Found child process: 9464 Name: conhost.exe
+2017-11-16 08:03:21 - Found child process: 9564 Name: node.exe
+2017-11-16 08:03:21 - Stopping process 9464
+2017-11-16 08:03:21 - Send SIGINT 9464
+2017-11-16 08:03:21 - SIGINT to 9464 failed - Killing as fallback
+2017-11-16 08:03:21 - Stopping process 9564
+2017-11-16 08:03:21 - Send SIGINT 9564
+2017-11-16 08:03:21 - SIGINT to 9564 failed - Killing as fallback
+2017-11-16 08:03:21 - Stopping process 9456
+2017-11-16 08:03:21 - Send SIGINT 9456
+2017-11-16 08:03:21 - SIGINT to 9456 failed - Killing as fallback
+2017-11-16 08:03:21 - Finished embeddedweb.exe
+2017-11-16 08:03:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 08:03:22 - Started 5648
+2017-11-16 08:06:08 - Stopping embeddedweb.exe
+2017-11-16 08:06:08 - ProcessKill 5648
+2017-11-16 08:06:08 - Found child process: 996 Name: conhost.exe
+2017-11-16 08:06:08 - Found child process: 5548 Name: node.exe
+2017-11-16 08:06:08 - Stopping process 996
+2017-11-16 08:06:08 - Send SIGINT 996
+2017-11-16 08:06:08 - SIGINT to 996 failed - Killing as fallback
+2017-11-16 08:06:08 - Stopping process 5548
+2017-11-16 08:06:08 - Send SIGINT 5548
+2017-11-16 08:06:08 - SIGINT to 5548 failed - Killing as fallback
+2017-11-16 08:06:08 - Stopping process 5648
+2017-11-16 08:06:08 - Send SIGINT 5648
+2017-11-16 08:06:09 - SIGINT to 5648 failed - Killing as fallback
+2017-11-16 08:06:09 - Finished embeddedweb.exe
+2017-11-16 08:06:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 08:06:10 - Started 8768
+2017-11-16 08:50:13 - Stopping embeddedweb.exe
+2017-11-16 08:50:13 - ProcessKill 8768
+2017-11-16 08:50:13 - Found child process: 8684 Name: conhost.exe
+2017-11-16 08:50:13 - Found child process: 10000 Name: node.exe
+2017-11-16 08:50:13 - Stopping process 8684
+2017-11-16 08:50:13 - Send SIGINT 8684
+2017-11-16 08:50:13 - SIGINT to 8684 failed - Killing as fallback
+2017-11-16 08:50:13 - Stopping process 10000
+2017-11-16 08:50:13 - Send SIGINT 10000
+2017-11-16 08:50:13 - SIGINT to 10000 failed - Killing as fallback
+2017-11-16 08:50:13 - Stopping process 8768
+2017-11-16 08:50:13 - Send SIGINT 8768
+2017-11-16 08:50:13 - SIGINT to 8768 failed - Killing as fallback
+2017-11-16 08:50:13 - Finished embeddedweb.exe
+2017-11-16 08:50:15 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 08:50:15 - Started 2516
+2017-11-16 08:55:25 - Stopping embeddedweb.exe
+2017-11-16 08:55:25 - ProcessKill 2516
+2017-11-16 08:55:25 - Found child process: 5232 Name: conhost.exe
+2017-11-16 08:55:25 - Found child process: 2148 Name: node.exe
+2017-11-16 08:55:25 - Stopping process 5232
+2017-11-16 08:55:25 - Send SIGINT 5232
+2017-11-16 08:55:25 - SIGINT to 5232 failed - Killing as fallback
+2017-11-16 08:55:25 - Stopping process 2148
+2017-11-16 08:55:25 - Send SIGINT 2148
+2017-11-16 08:55:25 - SIGINT to 2148 failed - Killing as fallback
+2017-11-16 08:55:25 - Stopping process 2516
+2017-11-16 08:55:25 - Send SIGINT 2516
+2017-11-16 08:55:25 - SIGINT to 2516 failed - Killing as fallback
+2017-11-16 08:55:25 - Finished embeddedweb.exe
+2017-11-16 08:55:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 08:55:27 - Started 1824
+2017-11-16 08:56:14 - Stopping embeddedweb.exe
+2017-11-16 08:56:14 - ProcessKill 1824
+2017-11-16 08:56:14 - Found child process: 9492 Name: conhost.exe
+2017-11-16 08:56:14 - Found child process: 8044 Name: node.exe
+2017-11-16 08:56:14 - Stopping process 9492
+2017-11-16 08:56:14 - Send SIGINT 9492
+2017-11-16 08:56:14 - SIGINT to 9492 failed - Killing as fallback
+2017-11-16 08:56:14 - Stopping process 8044
+2017-11-16 08:56:14 - Send SIGINT 8044
+2017-11-16 08:56:14 - SIGINT to 8044 failed - Killing as fallback
+2017-11-16 08:56:14 - Stopping process 1824
+2017-11-16 08:56:14 - Send SIGINT 1824
+2017-11-16 08:56:14 - SIGINT to 1824 failed - Killing as fallback
+2017-11-16 08:56:14 - Finished embeddedweb.exe
+2017-11-16 08:56:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 08:56:16 - Started 1304
+2017-11-16 08:56:53 - Stopping embeddedweb.exe
+2017-11-16 08:56:53 - ProcessKill 1304
+2017-11-16 08:56:53 - Found child process: 9804 Name: conhost.exe
+2017-11-16 08:56:53 - Found child process: 2824 Name: node.exe
+2017-11-16 08:56:53 - Stopping process 9804
+2017-11-16 08:56:53 - Send SIGINT 9804
+2017-11-16 08:56:53 - SIGINT to 9804 failed - Killing as fallback
+2017-11-16 08:56:53 - Stopping process 2824
+2017-11-16 08:56:53 - Send SIGINT 2824
+2017-11-16 08:56:53 - SIGINT to 2824 failed - Killing as fallback
+2017-11-16 08:56:53 - Stopping process 1304
+2017-11-16 08:56:53 - Send SIGINT 1304
+2017-11-16 08:56:53 - SIGINT to 1304 failed - Killing as fallback
+2017-11-16 08:56:53 - Finished embeddedweb.exe
+2017-11-16 08:56:55 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 08:56:55 - Started 2652
+2017-11-16 09:14:18 - Stopping embeddedweb.exe
+2017-11-16 09:14:18 - ProcessKill 2652
+2017-11-16 09:14:20 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2017-11-16 12:56:13 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 12:56:14 - Started 6876
+2017-11-16 14:53:07 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 14:53:08 - Started 5232
+2017-11-16 14:55:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 14:55:06 - Started 9556
+2017-11-16 14:56:17 - Stopping embeddedweb.exe
+2017-11-16 14:56:17 - ProcessKill 9556
+2017-11-16 14:56:17 - Found child process: 9576 Name: conhost.exe
+2017-11-16 14:56:17 - Found child process: 9660 Name: node.exe
+2017-11-16 14:56:18 - Stopping process 9576
+2017-11-16 14:56:18 - Send SIGINT 9576
+2017-11-16 14:56:18 - SIGINT to 9576 failed - Killing as fallback
+2017-11-16 14:56:18 - Stopping process 9660
+2017-11-16 14:56:18 - Send SIGINT 9660
+2017-11-16 14:56:18 - SIGINT to 9660 failed - Killing as fallback
+2017-11-16 14:56:18 - Stopping process 9556
+2017-11-16 14:56:18 - Send SIGINT 9556
+2017-11-16 14:56:18 - SIGINT to 9556 failed - Killing as fallback
+2017-11-16 14:56:18 - Finished embeddedweb.exe
+2017-11-16 15:02:52 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js --file C:\Users\BinhLN\Desktop\web-dahn\embedded\server.js --log "Embedded web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-11-16 15:02:52 - Started 7756

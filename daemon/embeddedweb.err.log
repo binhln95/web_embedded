@@ -1,0 +1,674 @@
+Error: Could not find include include file.
+    at getIncludePath (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:152:13)
+    at includeSource (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:276:17)
+    at C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:629:26
+    at Array.forEach (<anonymous>)
+    at Template.generateSource (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:605:15)
+    at Template.compile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:509:12)
+    at Object.compile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:358:16)
+    at handleCache (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:201:18)
+    at tryHandleCache (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:223:14)
+    at View.exports.renderFile [as engine] (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:437:10)
+SyntaxError: missing ) after argument list in C:\Users\BinhLN\Desktop\web-dahn\embedded\views\content\setting\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+    at new Function (<anonymous>)
+    at Template.compile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:549:12)
+    at Object.compile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:358:16)
+    at handleCache (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:201:18)
+    at tryHandleCache (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:223:14)
+    at View.exports.renderFile [as engine] (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:437:10)
+    at View.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\response.js:1008:7)
+Error: C:\Users\BinhLN\Desktop\web-dahn\embedded\views\content\setting\index.ejs:9
+    7| <body class="fixed-nav sticky-footer bg-dark" id="page-top">
+    8| 	<% include ../../partials/header %>
+ >> 9| 	 <%- include(page) %>
+    10| 
+    11| 	<footer class="sticky-footer">
+    12| 		<% include ../../partials/footer %>
+
+Could not find include include file.
+    at getIncludePath (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:152:13)
+    at includeFile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:258:19)
+    at include (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:578:16)
+    at eval (eval at compile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:549:12), <anonymous>:50:17)
+    at returnedFn (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:580:17)
+    at tryHandleCache (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:223:34)
+    at View.exports.renderFile [as engine] (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:437:10)
+    at View.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\application.js:592:3)
+Error: C:\Users\BinhLN\Desktop\web-dahn\embedded\views\content\setting\index.ejs:9
+    7| <body class="fixed-nav sticky-footer bg-dark" id="page-top">
+    8| 	<% include ../../partials/header %>
+ >> 9| 	 <%- include(page) %>
+    10| 
+    11| 	<footer class="sticky-footer">
+    12| 		<% include ../../partials/footer %>
+
+Could not find include include file.
+    at getIncludePath (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:152:13)
+    at includeFile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:258:19)
+    at include (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:578:16)
+    at eval (eval at compile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:549:12), <anonymous>:50:17)
+    at returnedFn (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:580:17)
+    at tryHandleCache (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:223:34)
+    at View.exports.renderFile [as engine] (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:437:10)
+    at View.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\application.js:592:3)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: getaddrinfo ENOENT localhost:3306
+    at Object._errnoException (util.js:1024:11)
+    at errnoException (dns.js:55:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at monitor (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at monitor (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: getaddrinfo ENOENT localhost:3306
+    at Object._errnoException (util.js:1024:11)
+    at errnoException (dns.js:55:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: getaddrinfo ENOENT localhost:3306
+    at Object._errnoException (util.js:1024:11)
+    at errnoException (dns.js:55:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: getaddrinfo ENOENT localhost:3306
+    at Object._errnoException (util.js:1024:11)
+    at errnoException (dns.js:55:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at monitor (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)
+Error: Failed to lookup view "content/dashboard/index.ejs" in views directory "C:\Users\BinhLN\Desktop\web-dahn\embedded\views"
+    at Function.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\express\lib\response.js:1008:7)
+    at Query._callback (C:\Users\BinhLN\Desktop\web-dahn\embedded\app\routes.js:88:10)
+    at Query.Sequence.end (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:103:28)
+Error: Could not find include include file.
+    at getIncludePath (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:152:13)
+    at includeSource (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:276:17)
+    at C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:629:26
+    at Array.forEach (<anonymous>)
+    at Template.generateSource (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:605:15)
+    at Template.compile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:509:12)
+    at Object.compile (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:358:16)
+    at handleCache (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:201:18)
+    at tryHandleCache (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:223:14)
+    at View.exports.renderFile [as engine] (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\ejs\lib\ejs.js:437:10)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: getaddrinfo ENOENT localhost:3306
+    at Object._errnoException (util.js:1024:11)
+    at errnoException (dns.js:55:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at monitor (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at monitor (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at monitor (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at monitor (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+    --------------------
+    at Protocol._enqueue (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at Connection.connect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:130:18)
+    at Connection._implyConnect (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:461:10)
+    at Connection.query (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\mysql\lib\Connection.js:206:8)
+    at Object.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\config\passport.js:12:12)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:177:11)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at process.exit (internal/process.js:157:15)
+    at monitor (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\BinhLN\Desktop\web-dahn\embedded\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:198:12)

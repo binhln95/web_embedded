@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<% include partials/html-header %>
+</head>
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+	<% include partials/header %>
+	<div class="content-wrapper">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card mb-3">
+		            <div class="card-header">
+		              <i class="fa fa-bell-o"></i> Danh sách cây123</div>
+		            <div class="list-group list-group-flush small" id="list_tree">
+		              	<!-- <a class="list-group-item list-group-item-action" href="#">
+		                	<div class="media">
+		                  		<img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt="">
+		                  		<div class="media-body">
+				                    <strong>Hoa Lan</strong>
+		                  		</div>
+		                	</div>
+		              	</a> -->
+		            </div>
+		            <div class="card-footer small text-muted">
+	            		<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Thêm cây</button>
+	            	</div>
+	          	</div>
+			</div>
+			<div class="col-md-9" id="detail_tree">
+			    <div class="container-fluid">
+			  		<div class="card mb-3">
+				        <div class="card-header">
+				        	<i class="fa fa-table"></i> Thông tin chi tiết
+				      	</div>
+				      	<div class="card-body" id="name_tree_table">
+				      		<!-- <div class="mr-5">Tên cây: </div> -->
+				      	</div>
+				        <div class="card-body">
+				          	<div class="table-responsive">
+
+					            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+					              	<thead>
+						                <tr>
+						                  	<th>Têm</th>
+						                  	<th>Nhiệt độ</th>
+						                  	<th>Độ ẩm</th>
+						                  	<th>Thời gian tưới</th>
+						                  	<th>Ngày tưới</th>
+						                  	
+						                  	<!-- <th>Cảnh báo</th> -->
+						                </tr>
+					              	</thead>
+					              	<!-- <thead>
+						                <tr>
+						                  	<th><input class="form-control" id="name" type="text" placeholder="Tìm kiếm"></th>
+						                  	<th><input class="form-control" id="name" type="text" placeholder="Nhiệt độ"></th>
+						                  	<th><input class="form-control" id="name" type="text" placeholder="Độ ẩm"></th>
+						                  	<th><input class="form-control" id="name" type="text" placeholder="Tìm kiếm"></th>
+						                  	<th><input type="text" id="datepicker"></th>
+						                </tr>
+					              	</thead> -->
+					              	<tbody>
+					              	</tbody>
+				            	</table>
+
+				          	</div>
+				        </div>
+				        <div class="card-footer" id="table_footer">
+				        	<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Sửa cây</button>
+				        	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Xóa cây</button>
+				        </div>
+			      	</div>
+			      	
+			    </div>
+		    </div>
+		    <div class="modal fade" id="myModal" role="dialog">
+			    <div class="modal-dialog">
+			      	<!-- Modal content-->
+			      	<div class="modal-content">
+				        <div class="modal-header">
+				          	<!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+				          	<h4 class="modal-title">Thêm cây</h4>
+				        </div>
+				        <div class="modal-body">
+				          	<div class="form-group">
+					      	<!-- <label for="email">Tên cây:</label> -->
+					      	<input type="text" class="form-control" id="name_tree" placeholder="Nhập tên cây">
+					    </div>
+				        </div>
+				        <div class="modal-footer">
+				        	<button type="button" class="btn btn-success" data-dismiss="modal" onclick="save_tree()">Lưu</button>
+				          	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        </div>
+			      	</div>
+			    </div>
+		  	</div>
+	    </div>
+	</div>
+
+	<footer class="sticky-footer">
+		<% include partials/footer %>
+	</footer>
+	<% include partials/script %>
+	
+	<script type="text/javascript">
+		var name = <%- JSON.stringify(query) %>;
+		var list_tree = JSON.parse(name);
+      	$(document).ready(function() {
+      		// for(var i = 0; i < list_tree.length; i++){
+	      	// 	var html = '<a class="list-group-item list-group-item-action" href="#" onclick="check_tree(' + list_tree[i].id + ')"><div class="media"><img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt=""><div class="media-body"><strong>' + list_tree[i].name + '</strong></div></div></a>';
+	      	// 	$("#list_tree").append(html);
+      		// }
+      		// $("#detail_tree").hide();
+      		load_list_tree();
+      		check_tree(list_tree[0].id);
+      	});
+
+      	function check_tree(id){
+      		$("#detail_tree").show();
+	        $('#datepicker').datepick();
+	        var table = $('#dataTable').DataTable();
+	        table.clear().draw();
+	        $.ajax({
+		  		url: "/get_data_tree",
+		  		method: "GET",
+			  	data: {id: id}
+			}).done(function( msg ) {
+			    var data = JSON.parse(msg);
+			    $("#name_tree_table div").remove();
+			    $("#name_tree_table").append('<div class="mr-5">Tên cây: ' + $("#" + id).html() + '</div>');
+			    for(var i = 0; i < data.length; i++){
+			    	var date = new Date(data[i].time);
+	          		table.row.add( [
+			            data[i].name, 
+			            data[i].temperature, 
+			            data[i].humidity, 
+			            data[i].total_time,
+			            (date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear()
+		          	] ).draw();
+		        }
+      			$("#table_footer button").remove();
+  				$("#table_footer").append('<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Sửa cây</button>');
+      			$("#table_footer").append('<button type="button" style="float: right;" class="btn btn-danger" onclick="delete_tree(' + id + ')">Xóa cây</button>');
+		  	});
+      	}
+
+      	function load_list_tree(){
+      		$.ajax({
+		  		url: "/load_list_tree",
+		  		method: "GET"
+			}).done(function( msg ) {
+				$("#list_tree a").remove();
+			    var data = JSON.parse(msg);
+			    for(var i = 0; i < data.length; i++){
+		      		var html = '<a class="list-group-item list-group-item-action" href="#" onclick="check_tree(' + data[i].id + ')"><div class="media"><img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt=""><div class="media-body"><strong id="' + data[i].id + '">' + data[i].name + '</strong></div></div></a>';
+		      		$("#list_tree").append(html);
+      			}
+
+		  	});
+      	}
+
+      	function save_tree(){
+      		$.ajax({
+		  		url: "/add_tree",
+		  		method: "GET",
+			  	data: {name: $("#name_tree").val()}
+			}).done(function( msg ) {
+			    load_list_tree();
+		  	});
+      	}
+
+      	function delete_tree(id){
+      		bootbox.confirm({
+			    message: "Bạn có chắc chắn muốn xóa?",
+			    buttons: {
+			        confirm: {
+			            label: 'Đồng ý',
+			            className: 'btn-success'
+			        },
+			        cancel: {
+			            label: 'Không',
+			            className: 'btn-danger'
+			        }
+			    },
+			    callback: function (result) {
+			        if (result == true){
+			        	$.ajax({
+					  		url: "/delete_tree",
+					  		method: "GET",
+						  	data: {id: id}
+						}).done(function( msg ) {
+						    console.log(msg);
+						    if (msg == "ok"){
+						    	bootbox.alert("Đã xóa thành công!!");
+						    }
+						    load_list_tree();
+					  	});
+			        }
+			    }
+			});
+      		
+      	}
+    </script>
+</body>
+</html>

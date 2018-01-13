@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../../partials_beta/html-header %>
+    <% include ../../partials_beta/scripts %>
+</head>
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+<% include ../../partials_beta/header %>
+<% include ../../partials_beta/sidebar %>
+<div id="content">
+	<div>
+        <canvas id="canvas"></canvas>
+    </div>
+</div>
+<footer class="sticky-footer">
+    <% include ../../partials_beta/footer %>
+    <script type="text/javascript" src="http://www.chartjs.org/dist/2.7.1/Chart.bundle.js"></script>
+    <script type="text/javascript" src="http://www.chartjs.org/samples/latest/utils.js"></script>
+    <script type="text/javascript">    	
+		var name = <%- JSON.stringify(query) %>;
+		var data = JSON.parse(name);
+		console.log(data);
+		var label_arr = [];
+		var data_arr = [];
+		if (data.length < 8)
+		{
+			for (var i = 0; i < data.length; i++){
+				label_arr.push(data[i].start_date);
+				data_arr.push(data[i].value);
+			}
+		}else{
+			for (var i = data.length-8; i < data.length; i++){
+				label_arr.push(data[i].start_date);
+				data_arr.push(data[i].value);
+			}
+		}
+		console.log(label_arr);
+		var config = {
+            type: 'line',
+            data: {
+                labels: label_arr,
+                datasets: [{
+                    label: "độ ẩm",
+                    backgroundColor: window.chartColors.red,
+                    borderColor: window.chartColors.red,
+                    data: data_arr,
+                    fill: false,
+                }]
+            },
+            options: {
+                responsive: true,
+                title:{
+                    display:true,
+                    text:'Đồ thị độ ẩm thường xuyên'
+                },
+                tooltips: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                hover: {
+                    mode: 'nearest',
+                    intersect: true
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Thời gian'
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Độ ẩm'
+                        }
+                    }]
+                }
+            }
+        };
+
+        window.onload = function() {
+            var ctx = document.getElementById("canvas").getContext("2d");
+            window.myLine = new Chart(ctx, config);
+        };
+    </script>
+</footer>
+
+</body>
+</html>

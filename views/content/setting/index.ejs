@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../../partials_beta/html-header %>
+    <% include ../../partials_beta/scripts %>
+</head>
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+<% include ../../partials_beta/header %>
+<% include ../../partials_beta/sidebar %>
+
+<div id="content">
+	<div id="content-header">
+		<div id="breadcrumb"><a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i>
+			Home</a>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span6">
+				<div class="widget-box">
+			        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+			          <h5>Cài đặt</h5>
+			        </div>
+			        <div class="widget-content nopadding">
+			          <form action="/save_setting" method="post" class="form-horizontal">
+			            <div class="control-group">
+			              <label class="control-label">Giờ tưới</label>
+			              <div class="controls">
+			                <input type="text" class="span11" placeholder="Giờ tưới" name="hour" id="hour">
+			              </div>
+			            </div>
+			            <div class="control-group">
+			              <label class="control-label">Mức độ ẩm level 1</label>
+			              <div class="controls">
+			                <input type="text" class="span11" placeholder="Mức độ ẩm level 1" name="w1" id="w1">
+			              </div>
+			            </div>
+			            <div class="control-group">
+			              <label class="control-label">Mức độ ẩm level 2</label>
+			              <div class="controls">
+			                <input type="text" class="span11" placeholder="Mức độ ẩm level 2" name="w2" id="w2">
+			              </div>
+			            </div>
+			            <div class="control-group">
+			              <label class="control-label">Mức độ ẩm level 3</label>
+			              <div class="controls">
+			                <input type="text" class="span11" placeholder="Mức độ ẩm level 3" name="w3" id="w3">
+			              </div>
+			            </div>
+			            <div class="control-group">
+			              <label class="control-label">Mức độ ẩm level 4</label>
+			              <div class="controls">
+			                <input type="text" class="span11" placeholder="Mức độ ẩm level 4" name="w4" id="w4">
+			                <!-- <span class="help-block">Description field</span> </div> -->
+			            </div>
+			            <!-- <div class="control-group">
+			              <label class="control-label">Message</label>
+			              <div class="controls">
+			                <textarea class="span11"></textarea>
+			              </div>
+			            </div> -->
+			            <div class="form-actions">
+			              <button type="submit" class="btn btn-success">Lưu</button>
+			            </div>
+			          </form>
+			        </div>
+			      </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.ui.custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.uniform.js"></script>
+<script src="js/select2.min.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/matrix.js"></script>
+<script src="js/matrix.tables.js"></script>
+<script src="js/bootbox.min.js"></script>
+<footer class="sticky-footer">
+    <% include ../../partials_beta/footer %>
+</footer>
+<script type="text/javascript" charset="utf-8">
+	// A $( document ).ready() block.
+	$( document ).ready(function() {
+	    $.ajax({
+	  		url: "/load_data_to_setting",
+	  		method: "GET",
+		  	data: {}
+		}).done(function( msg ) {
+			var data = JSON.parse(msg);
+		    console.log(data[0]);
+		    $("#hour").val(data[0].hour);
+		    $("#w1").val(data[0].w1);
+		    $("#w2").val(data[0].w2);
+		    $("#w3").val(data[0].w3);
+		    $("#w4").val(data[0].w4);
+	  	});
+	});
+</script>
+</body>
+</html>

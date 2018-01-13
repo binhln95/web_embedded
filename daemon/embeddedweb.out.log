@@ -1,0 +1,310 @@
+The magic happens on port 3000
+[0mGET / [36m304 [0m25.540 ms - -[0m
+[0mGET / [36m304 [0m6.133 ms - -[0m
+[0mGET / [36m304 [0m4.391 ms - -[0m
+[0mGET / [36m304 [0m4.496 ms - -[0m
+[0mGET / [36m304 [0m4.192 ms - -[0m
+[0mGET / [36m304 [0m5.644 ms - -[0m
+[0mGET /login [32m200 [0m31.887 ms - 6634[0m
+[0mGET /login [36m304 [0m6.275 ms - -[0m
+[0mGET /login [36m304 [0m5.508 ms - -[0m
+[0mGET /login [36m304 [0m13.747 ms - -[0m
+[0mGET /login [36m304 [0m8.188 ms - -[0m
+The magic happens on port 3000
+[0mGET /login [32m200 [0m93.475 ms - 1572[0m
+[0mPOST /login [36m302 [0m764.901 ms - 60[0m
+true
+[0mGET /profile [36m304 [0m217.415 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m74.001 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.409 ms - -[0m
+true
+[0mGET /profile [32m200 [0m21.720 ms - 17544[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m5.802 ms - -[0m
+[0mGET /setting [33m404 [0m3.683 ms - 146[0m
+The magic happens on port 3000
+false
+[0mGET /setting [36m302 [0m35.111 ms - 46[0m
+[0mGET / [36m304 [0m29.337 ms - -[0m
+[0mGET / [36m304 [0m5.640 ms - -[0m
+[0mGET /login [32m200 [0m2.165 ms - 1572[0m
+[0mPOST /login [36m302 [0m291.294 ms - 60[0m
+true
+[0mGET /profile [36m304 [0m9.784 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m3.912 ms - -[0m
+true
+[0mGET /setting [32m200 [0m5.458 ms - 15607[0m
+true
+[0mGET /setting [36m304 [0m6.371 ms - -[0m
+true
+[0mGET /profile [36m304 [0m8.208 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.917 ms - -[0m
+true
+[0mGET /setting [36m304 [0m5.447 ms - -[0m
+true
+[0mGET /profile [36m304 [0m5.684 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m4.336 ms - -[0m
+true
+[0mGET /setting [36m304 [0m5.695 ms - -[0m
+true
+[0mGET /profile [36m304 [0m5.862 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m1.857 ms - -[0m
+true
+[0mGET /setting [36m304 [0m7.322 ms - -[0m
+true
+[0mGET /profile [36m304 [0m7.928 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.399 ms - -[0m
+true
+[0mGET /profile [36m304 [0m7.875 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.105 ms - -[0m
+true
+[0mGET /setting [36m304 [0m3.782 ms - -[0m
+true
+[0mGET /setting [36m304 [0m8.219 ms - -[0m
+true
+[0mGET /profile [36m304 [0m6.881 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.306 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.448 ms - -[0m
+true
+[0mGET /setting [36m304 [0m5.263 ms - -[0m
+true
+[0mGET /profile [36m304 [0m7.322 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m5.558 ms - -[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m2.880 ms - 181[0m
+true
+[0mGET /setting [32m200 [0m8.373 ms - 13094[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m1.669 ms - 181[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m1.503 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.020 ms - 163[0m
+true
+[0mGET /setting [36m304 [0m5.605 ms - -[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m2.523 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m2.384 ms - 163[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m1.042 ms - 181[0m
+true
+[0mGET /setting [32m200 [0m6.300 ms - 15611[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m1.343 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.634 ms - 163[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m2.349 ms - 181[0m
+true
+[0mGET /setting [32m200 [0m8.193 ms - 15611[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m1.526 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.127 ms - 163[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m2.032 ms - 181[0m
+true
+[0mGET /profile [36m304 [0m6.448 ms - -[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m1.622 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.570 ms - 163[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m1.430 ms - 181[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.477 ms - -[0m
+The magic happens on port 3000
+false
+[0mGET /profile [36m302 [0m34.850 ms - 46[0m
+[0mGET / [36m304 [0m15.952 ms - -[0m
+[0mGET /login [32m200 [0m3.156 ms - 1572[0m
+[0mPOST /login [36m302 [0m283.191 ms - 60[0m
+true
+[0mGET /profile [32m200 [0m9.668 ms - 17544[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m3.472 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m4.377 ms - 163[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m2.010 ms - 181[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m3.490 ms - -[0m
+true
+[0mGET /setting [36m304 [0m5.323 ms - -[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m3.907 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.742 ms - 163[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m3.039 ms - 181[0m
+true
+[0mGET /setting [31m500 [0m4.074 ms - 1261[0m
+true
+[0mGET /setting [31m500 [0m28.743 ms - 1512[0m
+The magic happens on port 3000
+false
+[0mGET /setting [36m302 [0m17.413 ms - 46[0m
+[0mGET / [36m304 [0m13.455 ms - -[0m
+[0mGET /login [32m200 [0m3.287 ms - 1572[0m
+[0mPOST /login [36m302 [0m308.462 ms - 60[0m
+true
+[0mGET /profile [36m304 [0m11.666 ms - -[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m3.301 ms - 186[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m1.815 ms - 181[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.410 ms - 163[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.971 ms - -[0m
+true
+[0mGET /setting [31m500 [0m9.629 ms - 1830[0m
+The magic happens on port 3000
+false
+[0mGET /setting [36m302 [0m38.695 ms - 46[0m
+[0mGET / [36m304 [0m14.821 ms - -[0m
+[0mGET /login [32m200 [0m3.057 ms - 1572[0m
+[0mPOST /login [36m302 [0m281.553 ms - 60[0m
+true
+[0mGET /profile [36m304 [0m9.616 ms - -[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m2.467 ms - 186[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m1.801 ms - 181[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.508 ms - 163[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.735 ms - -[0m
+true
+[0mGET /setting [31m500 [0m6.880 ms - 1830[0m
+The magic happens on port 3000
+false
+[0mGET /setting [36m302 [0m21.283 ms - 46[0m
+[0mGET / [36m304 [0m14.905 ms - -[0m
+[0mGET /login [32m200 [0m2.887 ms - 1572[0m
+[0mPOST /login [36m302 [0m281.722 ms - 60[0m
+true
+[0mGET /profile [36m304 [0m9.683 ms - -[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m4.322 ms - 181[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m2.199 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m3.967 ms - 163[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m3.457 ms - -[0m
+true
+[0mGET /setting [32m200 [0m6.792 ms - 15611[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m1.468 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.389 ms - 163[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m1.185 ms - 181[0m
+true
+[0mGET /profile [36m304 [0m8.338 ms - -[0m
+[0mGET /plugin/bootstrap/js/bootstrap.bundle.min.js.map [33m404 [0m2.160 ms - 186[0m
+[0mGET /js/jquery.plugin.min.map [33m404 [0m1.465 ms - 163[0m
+[0mGET /plugin/bootstrap/css/bootstrap.min.css.map [33m404 [0m1.538 ms - 181[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.407 ms - -[0m
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+[0mGET / [36m304 [0m184.576 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m12.781 ms - 150[0m
+[0mGET /login [32m200 [0m30.719 ms - 1572[0m
+[0mPOST /login [36m302 [0m1012.497 ms - 60[0m
+true
+[0mGET /profile [31m500 [0m105.248 ms - 1587[0m
+The magic happens on port 3000
+false
+[0mGET /profile [36m302 [0m23.137 ms - 46[0m
+[0mGET / [36m304 [0m17.126 ms - -[0m
+[0mGET /login [32m200 [0m3.680 ms - 1572[0m
+[0mPOST /login [36m302 [0m337.362 ms - 60[0m
+true
+[0mGET /profile [31m500 [0m7.671 ms - 1261[0m
+true
+[0mGET /profile [32m200 [0m135.011 ms - 17544[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m35.805 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.081 ms - -[0m
+true
+2
+[0mGET /get_data_tree?id=2 [36m304 [0m2.640 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.675 ms - -[0m
+true
+[0mGET /setting [36m304 [0m8.962 ms - -[0m
+true
+[0mGET /setting [36m304 [0m91.573 ms - -[0m
+true
+[0mGET /setting [36m304 [0m14.148 ms - -[0m
+true
+[0mGET /setting [32m200 [0m16.757 ms - 13500[0m
+[0mGET / [36m304 [0m11.859 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.430 ms - 150[0m
+[0mGET /login [32m200 [0m1.458 ms - 1572[0m
+[0mPOST /login [36m302 [0m288.679 ms - 60[0m
+true
+[0mGET /profile [36m304 [0m6.395 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m2.783 ms - -[0m
+true
+2
+[0mGET /get_data_tree?id=2 [36m304 [0m3.059 ms - -[0m
+true
+3
+[0mGET /get_data_tree?id=3 [32m200 [0m1.840 ms - 2[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m3.000 ms - -[0m
+true
+[0mGET /setting [36m304 [0m7.492 ms - -[0m
+true
+[0mGET /profile [36m304 [0m9.771 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m3.094 ms - -[0m
+true
+[0mGET /setting [36m304 [0m8.571 ms - -[0m
+true
+[0mGET /setting [36m304 [0m8.630 ms - -[0m
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+[0mGET / [36m304 [0m80.757 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m4.010 ms - 150[0m
+[0mGET /login [32m200 [0m22.349 ms - 1572[0m
+[0mPOST /login [36m302 [0m653.660 ms - 60[0m
+true
+[0mGET /profile [36m304 [0m121.875 ms - -[0m
+true
+1
+[0mGET /get_data_tree?id=1 [36m304 [0m546.987 ms - -[0m
+true
+[0mGET /setting [36m304 [0m8.763 ms - -[0m
+true
+[0mGET /setting [32m200 [0m9.450 ms - 13649[0m
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
+The magic happens on port 3000
