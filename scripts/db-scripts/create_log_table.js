@@ -20,9 +20,8 @@ con.connect(function(err) {
         `id_tree` INT NOT NULL, \
         `start_time` Datetime NOT NULL, \
         `end_time` Datetime NOT NULL, \
-        `temperature` INT, \
-        `humidity` INT, \
-        `location_id` INT, \
+        `humi_start` INT, \
+        `humi_end` INT, \
         PRIMARY KEY (`id`), \
         UNIQUE INDEX `id_UNIQUE` (`id` ASC) \
       )';

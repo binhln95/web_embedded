@@ -179,7 +179,8 @@ module.exports = function(app, passport) {
 
 		var newdate = year + "-" + month + "-" + day;
 		// res.send(newdate);
-		var sql = "INSERT INTO `log`(`id_tree`, `time`, `total_time`, `humidity`) VALUES (" + req.query.id + ", '" + newdate + "', " + req.query.total_time + ", " + req.query.humi + ");";
+		var sql = "INSERT INTO `log`(`id_tree`, `start_time`, `end_time`, `humi_start`, `humi_end`) VALUES (" + req.query.id + ", '" + req.query.timestart + "', '" + req.query.timeend + "', " + req.query.humistart + ", " + req.query.humiend + ");";
+		console.log(sql);
 		// res.send(sql);
 		var rel = [];
 		var query = con.query(sql,function (err, result, fields) {
