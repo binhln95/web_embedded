@@ -20,5 +20,4 @@ If you would like to download the code and try it for yourself:
 1. Visit in your browser at: `http://localhost:8080`
 
 
-Licence: 1
-"# web_embedded" 
+## Licence: 1 web_embedded" 
